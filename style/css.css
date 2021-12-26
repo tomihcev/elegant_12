@@ -106,6 +106,133 @@ h1 span {
     margin-bottom: 162px;
 }
 
-.container{
+.work {
     max-width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.d-flex {
+    display: flex;
+
+
+}
+
+
+.work .work_foto {
+    width: 25%;
+    padding: 2px;
+
+}
+
+.work .work_foto img {
+    display: block;
+    width: 100%;
+}
+
+.people {
+    max-width: 768px;
+    margin: auto;
+    margin-top: 160px;
+    margin-bottom: 60px;
+    padding-bottom: 165px;
+}
+
+.people h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #d4af37;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.people h4 {
+    font-size: 44px;
+    color: #747a7f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.people p {
+    font-size: 18px;
+    color: #021725;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.people .item {
+    max-width: 746px;
+
+}
+
+.item_ceo{
+    width: 33%;
+    padding: 0 3px;
+
+}
+
+.item_ceo img{
+    display: block;
+    width: 100%;
+}
+
+.item .item_text{
+    background-color: #f9f9f9;
+    padding: 20px 15px 48px;
+
+}
+
+.item .item_text h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #d4af37;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+.item .item_text h4{
+    text-align: left;
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+
+.item .item_text p{
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 0;
+    line-height: 25px;
+}
+
+.last_post{
+    max-width: 768px;
+    margin: auto;
+}
+
+.last_post h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #d4af37;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.last_post h4{
+    font-size: 44px;
+    color: #747a7f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
 }
