@@ -11,9 +11,10 @@ header {
     left: 4%;
     top: 16px;
 
+
 }
 
-header .header{
+header .header {
     justify-content: space-between;
     align-items: center;
 }
@@ -22,7 +23,7 @@ header .header{
     display: flex;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -45,8 +46,66 @@ h1 {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    padding: 0 15px;
 }
 
-h1 span{
+h1 span {
     font-style: italic;
+}
+
+.who_we_are {
+    padding: 82px 0 40px;
+    background-color: white;
+
+}
+
+.who_we_are .content {
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+}
+
+.who_we_are .content h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #d4af37;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.who_we_are .content h4 {
+    font-size: 44px;
+    color: #747a7f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.who_we_are .content p {
+    font-size: 18px;
+    color: #021725;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 47px;
+    line-height: 30px;
+}
+
+.who_we_are .content a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 45px;
+    border: solid black 2px;
+    font-size: 14px;
+    color: #021725;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 162px;
+}
+
+.container{
+    max-width: 1280px;
 }
