@@ -1,7 +1,208 @@
 @media only screen and (max-width: 958px) {
-h1{
-    font-size: 95px;
+    h1 {
+        font-size: 95px;
+    }
+
 }
-    
+
+@media only screen and (max-width: 767px) {
+    header nav a span {
+        display: none;
+    }
+
+    header {
+        background-color: rgba(83, 90, 94, 0.7);
+        padding: 0;
+        padding-left: 25px;
+    }
+
+    header nav a .fa-bars {
+        color: white;
+        font-size: 24px;
+        background-color: rgba(40, 51, 56, 0.7);
+        padding: 43px 28px;
+    }
+
+
+    header a img {
+        height: 200%;
+        width: 200%;
+    }
+
+    .bg_header {
+        background-image: url("../images/bg_header_2.jpg");
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .who_we_are {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .who_we_are .content h3 {
+        font-size: 28px;
+    }
+
+    .who_we_are .content h4 {
+        font-size: 90px;
+    }
+
+    .who_we_are .content p {
+        font-size: 29px;
+        line-height: 44px;
+    }
+
+    .work {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .work .work_foto {
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 5px;
+
+    }
+
+    .people {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .people h3 {
+        font-size: 28px;
+    }
+
+    .people h4 {
+        font-size: 90px;
+    }
+
+    .people p {
+        font-size: 29px;
+        line-height: 44px;
+    }
+
+    .item {
+        flex-wrap: wrap;
+    }
+
+    .item_ceo {
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .item .item_text h3 {
+        font-size: 29px;
+    }
+
+    .item .item_text h4 {
+        font-size: 98px;
+    }
+
+    .item .item_text p {
+        font-size: 29px;
+        line-height: 44px;
+    }
+
+    .last_post {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .last_post h3 {
+        font-size: 29px;
+    }
+
+    .last_post h4 {
+        font-size: 98px;
+    }
+
+    .last_post .item {
+        flex-wrap: wrap;
+    }
+
+    .last_post .item .foto {
+        width: 100%
+    }
+
+
+    .last_post .item .text {
+        width: 100%;
+    }
+
+
+    .last_post .item .text h3 {
+        font-size: 28px;
+
+    }
+
+    .last_post .item .text h4 {
+        font-size: 60px;
+
+    }
+
+    .last_post .item .text p {
+        font-size: 29px;
+        line-height: 50px;
+    }
+
+    .last_post .item .text a {
+        padding: 35px 90px;
+        border: solid black 1px;
+        font-size: 29px;
+    }
+
+
+    .last_post a {
+        padding: 35px 90px;
+        border: solid black 1px;
+        font-size: 29px;
+    }
+
+    .contact {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .contact h3 {
+        font-size: 28px;
+    }
+
+
+    .contact h4 {
+        font-size: 90px;
+    }
+
+
+    .contact .contact_text .text {
+        width: 100%;
+        color: #505d68;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .contact .contact_text .text span {
+        display: block;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin-bottom: 50px;
+        line-height: normal;
+    }
+
+    .footer {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 30px;
+
+
+    }
+
 }
+
+
+
 

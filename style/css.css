@@ -7,9 +7,10 @@
 
 header {
     position: absolute;
-    width: 92%;
-    left: 4%;
-    top: 16px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-right: 40px;
 
 
 }
@@ -115,8 +116,6 @@ h1 span {
 
 .d-flex {
     display: flex;
-
-
 }
 
 
@@ -173,24 +172,24 @@ h1 span {
 
 }
 
-.item_ceo{
+.item_ceo {
     width: 33%;
     padding: 0 3px;
 
 }
 
-.item_ceo img{
+.item_ceo img {
     display: block;
     width: 100%;
 }
 
-.item .item_text{
+.item .item_text {
     background-color: #f9f9f9;
     padding: 20px 15px 48px;
 
 }
 
-.item .item_text h3{
+.item .item_text h3 {
     text-transform: uppercase;
     font-size: 13px;
     color: #d4af37;
@@ -200,27 +199,27 @@ h1 span {
     text-align: left;
 }
 
-.item .item_text h4{
+.item .item_text h4 {
     text-align: left;
     font-size: 21px;
     margin-bottom: 35px;
 }
 
-.item .item_text p{
+.item .item_text p {
     text-align: left;
     font-size: 13px;
     margin-bottom: 0;
     line-height: 25px;
 }
 
-.last_post{
+.last_post {
     max-width: 768px;
     margin: auto;
     text-align: center;
     padding-bottom: 160px;
 }
 
-.last_post h3{
+.last_post h3 {
     text-transform: uppercase;
     font-size: 13px;
     color: #d4af37;
@@ -230,7 +229,7 @@ h1 span {
     margin-bottom: 22px;
 }
 
-.last_post h4{
+.last_post h4 {
     font-size: 44px;
     color: #747a7f;
     font-family: 'Open Sans', sans-serif;
@@ -239,20 +238,20 @@ h1 span {
     margin-bottom: 50px;
 }
 
-.last_post .item{
-margin-bottom: 85px;
+.last_post .item {
+    margin-bottom: 85px;
 }
 
-.last_post .item .foto{
+.last_post .item .foto {
     width: 50%;
 }
 
-.last_post .item .foto img{
+.last_post .item .foto img {
     display: block;
     width: 100%;
 }
 
-.last_post .item .text{
+.last_post .item .text {
     width: 50%;
     background-color: #f9f9f9;
     padding: 42px;
@@ -269,7 +268,7 @@ margin-bottom: 85px;
 
 }
 
-.last_post .item .text h4{
+.last_post .item .text h4 {
     font-size: 30px;
     color: #505d68;
     font-family: 'Open Sans', sans-serif;
@@ -277,7 +276,7 @@ margin-bottom: 85px;
     text-align: left;
 }
 
-.last_post .item .text p{
+.last_post .item .text p {
     font-size: 16px;
     color: #505d68;
     font-family: 'Open Sans', sans-serif;
@@ -286,7 +285,7 @@ margin-bottom: 85px;
 
 }
 
-.last_post .item .text a{
+.last_post .item .text a {
     display: inline-block;
     text-decoration: none;
     padding: 18px 45px;
@@ -297,7 +296,7 @@ margin-bottom: 85px;
     font-weight: 300;
 }
 
-.last_post a{
+.last_post a {
     display: inline-block;
     text-decoration: none;
     padding: 18px 45px;
@@ -308,14 +307,14 @@ margin-bottom: 85px;
     font-weight: 300;
 }
 
-.contact{
+.contact {
     max-width: 768px;
     margin: auto;
     text-align: center;
     padding-bottom: 80px;
 }
 
-.contact h3{
+.contact h3 {
     text-transform: uppercase;
     font-size: 13px;
     color: #d4af37;
@@ -326,7 +325,7 @@ margin-bottom: 85px;
 }
 
 
-.contact h4{
+.contact h4 {
     font-size: 44px;
     color: #747a7f;
     font-family: 'Open Sans', sans-serif;
@@ -335,30 +334,30 @@ margin-bottom: 85px;
     margin-bottom: 52px;
 }
 
-.contact .contact_map{
-    width: 100%;
+.contact .contact_map {
+    position: relative;
+    max-width: 768px;
+    height: 295px;
+
 }
 
-.contact .contact_map iframe{
-    display: block;
-}
 
-.contact .contact_text{
+.contact .contact_text {
     background-color: #f9f9f9;
     flex-wrap: wrap;
 }
 
-.contact .contact_text .text{
+.contact .contact_text .text {
     width: 50%;
     padding: 50px 70px;
-    color:#505d68;
+    color: #505d68;
     font-size: 19px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     line-height: 30px;
 }
 
-.contact .contact_text .text span{
+.contact .contact_text .text span {
     display: block;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
@@ -367,14 +366,14 @@ margin-bottom: 85px;
     line-height: normal;
 }
 
-footer{
+footer {
     padding: 40px 0;
     background-color: #eeeeee;
 
 
 }
 
-.footer{
+.footer {
     max-width: 768px;
     margin: auto;
     justify-content: space-between;
