@@ -391,7 +391,7 @@ footer {
     width: 20px;
     height: 20px;
     position: absolute;
-    left: -50px;
+    left: 50px;
     top: 300px;
 
 }
@@ -410,7 +410,7 @@ footer {
     width: 20px;
     height: 20px;
     position: absolute;
-    right: -50px;
+    right: 50px;
     top: 300px;
     transform: rotate(180deg);
 }
