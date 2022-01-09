@@ -183,13 +183,13 @@ h1 span {
     width: 100%;
 }
 
- .item_text {
+.item_text {
     background-color: #f9f9f9;
     padding: 20px 15px 48px;
 
 }
 
- .item_text h3 {
+.item_text h3 {
     text-transform: uppercase;
     font-size: 13px;
     color: #d4af37;
@@ -199,13 +199,13 @@ h1 span {
     text-align: left;
 }
 
- .item_text h4 {
+.item_text h4 {
     text-align: left;
     font-size: 21px;
     margin-bottom: 35px;
 }
 
- .item_text p {
+.item_text p {
     text-align: left;
     font-size: 13px;
     margin-bottom: 0;
@@ -382,5 +382,69 @@ footer {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+
+}
+
+
+.owl-nav .owl-prev {
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -50px;
+    top: 300px;
+
+}
+
+.owl-nav .owl-prev:before {
+    content: "\f053";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    font-size: 30px;
+}
+
+
+.owl-nav .owl-next {
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -50px;
+    top: 300px;
+    transform: rotate(180deg);
+}
+
+.owl-nav .owl-next:before {
+    content: "\f053";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    font-size: 30px;
+
+}
+
+.owl-dots{
+    width: 100%;
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+
+display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black !important; ;
+    border-radius: 50%;
+    margin: 10px;
+
+
+
+
+}
+
+.owl-dots .owl-dot.active {
+    background-color: #d4af37 !important; ;
+
 
 }
