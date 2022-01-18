@@ -424,27 +424,141 @@ footer {
 
 }
 
-.owl-dots{
+.owl-dots {
     width: 100%;
     text-align: center;
 }
 
 .owl-dots .owl-dot {
 
-display: inline-block;
+    display: inline-block;
     width: 20px;
     height: 20px;
-    background-color: black !important; ;
+    background-color: black !important;;
     border-radius: 50%;
     margin: 10px;
+}
 
 
+.owl-dots .owl-dot.active {
+    background-color: #d4af37 !important;;
 
 
 }
 
-.owl-dots .owl-dot.active {
-    background-color: #d4af37 !important; ;
+.ui-dialog{
+    max-width: 750px !important;
+    width: 100%!important;
+    padding: 0 !important;
+background-color: #fbfbfb!important;
+    border-radius: 0 0 5px 5px!important;
+
+}
+
+ .ui-resizable-w,.ui-resizable-n,.ui-resizable-e,.ui-resizable-s,ui-resizable-sw,ui-resizable-ne,ui-resizable-nw{
+     width: 0!important;
+     height: 0!important;
+     display: none;!important;
+ }
+
+.ui-dialog-titlebar{
+    background-color: black!important;
+    padding-top:40px!important;
+    padding-bottom: 40px!important;
+    text-align: center!important;
+}
+
+.ui-dialog-title{
+    color: #FFFFFF!important;
+    font-size: 24px!important;
+
+    text-transform: uppercase!important;
+    margin: auto!important;
+}
+
+#ui-id-1{
+    float:none!important;
+
+}
+
+.ui-button-icon{
+display: none!important;
+   background-color: black!important;
+
+}
+
+.ui-button{
+    display: none!important;
+}
+
+.form_win{
+    max-width: 580px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 150px;
 
 
+}
+
+.form{
+    display: flex;
+    justify-content : space-between;
+    margin-bottom: 40px;
+}
+
+.name_input{
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+}
+
+.input_email{
+    width: 70%;
+    outline: none;
+    height: 58px;
+    border-radius: 2px!important;
+    border: solid 1px #747a7f!important;
+}
+
+.button_form{
+    display: inline-block;
+    color: black!important;
+    text-transform: uppercase;
+    background-color: #d1d1d1;
+    font-size: 24px!important;
+    min-height:58px ;
+    border: none;
+    border-radius: 2px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.or{
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom:30px ;
+}
+
+.face{
+    display: inline-block;
+    color: white!important;
+    text-transform: uppercase;
+    background-color: #4a69aa;
+    font-size: 24px!important;
+    padding-top: 16px;
+    padding-bottom: 16px ;
+    border: none;
+    border-radius: 2px;
+    width: 90%;
+    text-decoration: none;
+}
+
+.face:before{
+    content: "\f39e";
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+    font-size: 24px;
+    margin-right: 5px;
 }
